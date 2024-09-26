@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="/./favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -42,7 +44,7 @@
      <div class="container">
         <div class="box">
     
-     <section class="section home">
+     <section class="section home active">
         <div class="home-info">
             <h3>Olá Mundo Eu sou</h3>
             <h1>Alyson Prado</h1>
@@ -73,7 +75,7 @@
         </div>
         <div class="img-wrapper">
             <div class="img-box home-img">
-                <img src="./images/img.png" alt="">
+                <img src="./img/eu2.png" alt="">
             </div>
         </div>  
      </section>
@@ -81,7 +83,7 @@
      <section class="section about">
         <div class="img-wrapper">
             <div class="img-box about-img">
-                <img src="./images/img.png" alt="">
+                <img src="./img/eu3.png" alt="">
             </div>
         </div>
         <div class="about-info">
@@ -483,7 +485,7 @@
         </div>
      </section>
 
-     <section class="section contact">
+     <section class="section contact active">
         <h2 class="title">Contato</h2>
         <div class="contact-wrapper">
             <form action="" class="contact-form">
@@ -491,7 +493,7 @@
                 <div class="field-box">
                     <input type="text" placeholder="Nome Completo" required>
                     <input type="email" placeholder="Endereço de Email" required>
-                    <input type="text" placeholder="Número do Celular" required>
+                    <input id="phone" name="phone" class="no-arrow" value="" type="number"placeholder="Número do Telefone" required>
                     <input type="text" placeholder="Assunto do Email" required>
                     <textarea name="" id="" placeholder="Sua Mensagem" required></textarea>
                 </div>
