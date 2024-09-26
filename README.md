@@ -36,8 +36,6 @@ Este portfólio apresenta meus projetos, habilidades e experiências na área de
 * **Aprender Node.js:** 
 * **Desenvolver um aplicativo mobile:** 
 
-**Acesse meu portfólio em [link para o portfólio]**
-
 
 **Licença:**
 Este projeto está licenciado sob a licença MIT.
