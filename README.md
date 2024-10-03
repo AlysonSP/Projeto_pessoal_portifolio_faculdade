@@ -16,9 +16,9 @@ Este portfólio apresenta meus projetos, habilidades e experiências na área de
 * **Responsividade:** 📱
 
 ### Habilidades
-* **HTML5:** Intermediário 🖋️
-* **CSS3:** Intermediário 🎨
-* **JavaScript:** Intermediário ⚙️
+* **HTML5:** iniciante-Intermediário 🖋️
+* **CSS3:** iniciante-Intermediário 🎨
+* **JavaScript:** iniciante-Intermediário ⚙️
 
 ### Próximos Passos
 * **React:** ⚛️
