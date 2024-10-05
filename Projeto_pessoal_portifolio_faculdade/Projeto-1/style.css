@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color:var(--white-color);
+    font-weight: 600;
+
+}
+:root {
+    --nav-bg-color: rgba(255, 255, 255, .1);
+    --bg-color: #171f2b;
+    --second-bg-color: #1f2733;
+    --third-bg-color: #2d3542;
+    --main-color: #0ef;
+    --white-color: #fff;
+    --tab-list-color: #7c8594;
+}
+    
+    body {
+        background-image: url('./assets/mundo.jpeg');
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    body::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100dvh;
+        background: rgb(0, 0, 0, 0.15);
+        backdrop-filter: blur(15px);
+    }
+    
+    .regular-txt {
+        font-weight: 400;
+    }
+   
+    
+    .main-container {
+        
+        width: 300px;
+        height: 496px;
+        z-index: 1;
+        background: linear-gradient(
+            to top,
+            rgb(0, 0, 0, 0.15),
+            rgb(255, 255, 255, 0.15)
+        );
+        border-radius: 12px;
+        padding: 20px;
+        backdrop-filter: blur(100px);
+    }
+    
+    
+    .input-container {
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .city-input {
+        width: 100%;
+        padding: 10px 16px;
+        border-radius: 99px;
+        border: 3px solid transparent;
+        background-color: rgb(0, 0, 0, 0.15);
+        outline: none;
+        font-weight: 500;
+        transition: 0.25s border;
+        padding-right: 45px;
+    }
+    .city-input::placeholder {
+        color: rgb(255, 255, 255, 0.75);
+    }
+    .city-input:focus {
+        border: 3px solid rgb(0, 0, 0, 0.15);
+    }
+    .search-btn {
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+    }
+    
+  
+    .weather-info {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .location-data-container {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .location {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .weather-summary-cointer {
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    .weather-summary-img {
+       
+        width: 120px;
+        height: 120px;
+    }
+    .weather-summary-info {
+        text-align: end;
+    }
+    
+    .weather-conditions-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .condition-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .condition-item span {
+        font-size: 30px;
+    }
+    .forecast-items-container {
+        display: flex;
+        gap: 15px;
+        overflow-x: scroll;
+        padding-bottom: 12px;
+    }
+    .forecast-items-container::-webkit-scrollbar {
+        height: 8px;
+    }
+    .forecast-items-container::-webkit-scrollbar-track {
+        background: rgb(0, 0, 0, 0.1);
+        border-radius: 99px;
+    }
+    .forecast-items-container::-webkit-scrollbar-thumb {
+        background: rgb(0, 0, 0, 0.15);
+    }
+    .forecast-item {
+        min-width: 70px;
+        background-color: rgb(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        padding: 10px;
+        align-items: center;
+        border-radius: 12px;
+        transition: 0.3s background;
+    }
+    .forecast-item:hover {
+        background: rgb(255, 255, 255, 0.15);
+    }
+    .forecast-item-img {
+        width: 35px;
+        height: 35px;
+    }
+   
+    .section-message img {
+        height: 180px;
+        width: fit-content;
+    }
+    .section-message {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        margin-top: 25%;
+    }
+    
+    
+  
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes float {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes swing {
+        0% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(5deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    
+    @keyframes glow {
+        0% {
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        100% {
+            box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+        }
+    }
+    
+    @keyframes zoomIn {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1.1);
+        }
+    }
+    
+   
+    .weather-summary-img {
+        animation: float 3s ease-in-out infinite;
+    }
+    
+
+    .search-btn:hover {
+        animation: glow 1s infinite alternate, rotate 1s ease infinite;
+    }
+/* From Uiverse.io by xopc333 */ 
+.button {
+    display: block;
+    position: relative;
+    width: 56px;
+    height: 56px;
+    margin: 0;
+    overflow: hidden;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  .button:before,
+  .button:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 7px;
+  }
+  
+  .button:before {
+    border: 4px solid #f0eeef;
+    transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+      transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+  }
+  
+  .button:after {
+    border: 4px solid #96daf0;
+    transform: scale(1.3);
+    transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+      transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    opacity: 0;
+  }
+  
+  .button:hover:before,
+  .button:focus:before {
+    opacity: 0;
+    transform: scale(0.7);
+    transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+      transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  .button:hover:after,
+  .button:focus:after {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+      transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+  }
+  
+  .button-box {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .button-elem {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 17px 18px 0 18px;
+    transform: rotate(180deg);
+    fill: #f0eeef;
+  }
+  
+  .button:hover .button-box,
+  .button:focus .button-box {
+    transition: 0.4s;
+    transform: translateX(-56px);
+  }
+  
