@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Labrada
-- Font Author: Copyright 2022 The Labrada Project Authors (https://github.com/Omnibus-Type/Labrada)
-- Font Source: https://fonts.gstatic.com/s/labrada/v2/ieVv2Y9HLWefIpOyPVxQIkLq2VfhwMCbCNl7SvN2fy17-dE.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
