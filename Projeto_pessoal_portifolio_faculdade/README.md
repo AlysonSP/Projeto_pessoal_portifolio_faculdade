@@ -9,34 +9,18 @@ Este portfólio apresenta meus projetos, habilidades e experiências na área de
 * **HTML5:** 
 * **CSS3:** 
 * **JavaScript:** ⚙️
-* **React:** ⚛️
-* **Ferramentas:** ️ Git,  Visual Studio Code,  Figma
+* **Ferramentas:** ️ Git,  Visual Studio Code,  
 
 ### Funcionalidades
-* **Barra de progresso:** ⏩
+
 * **Dark mode:** 
 * **Animações:** ✨
 * **Responsividade:** 
-* **SEO:** 
-* **Feedback:** 
-* **Integração com redes sociais:** 
-
-### Projetos em Destaque
-* **Portfólio Pessoal:**  [Descrição breve, tecnologias utilizadas, link para o projeto]
-* **E-commerce:**  [Descrição breve, tecnologias utilizadas, link para o projeto]
 
 ### Habilidades
-* **HTML5:** Intermediário
-* **CSS3:** Intermediário
-* **JavaScript:** Intermediário
-
-
-### Próximos Passos
-* **React:**
-* **Aprender Node.js:** 
-* **Desenvolver um aplicativo mobile:** 
-
-**Acesse meu portfólio em [link para o portfólio]**
+* **HTML5:** iniciante-Intermediário
+* **CSS3:** iniciante-Intermediário
+* **JavaScript:** iniciante-Intermediário
 
 
 **Licença:**
