@@ -104,10 +104,13 @@ nav{
     opacity: 0;    
     transition: .3s;
 }
+
 .nav-list li:hover .tooltip,
 a:hover .tooltip, .portfolio-item:hover .work-info {
     visibility: visible;
-    opacity: 1;     
+    opacity: 1;
+
+
 }
 .container{
     width: 100vw;
@@ -429,7 +432,7 @@ a:hover .tooltip, .portfolio-item:hover .work-info {
     transition: .3s;
 }
 .portfolio-item:hover .work-img img{
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 .portfolio-item .work-info{
     z-index: 1;
@@ -448,6 +451,7 @@ a:hover .tooltip, .portfolio-item:hover .work-info {
 }
 .portfolio-item .portfolio-icon a{
     position: relative;
+    margin-left: 2rem;
     display: inline-flex;
     padding: 1rem;
     background: var(--white-color);
@@ -638,5 +642,17 @@ a:hover .tooltip, .portfolio-item:hover .work-info {
         font-size: 2.3rem;
     }
 
+}
+.extra-desc {
+    display: none;
+}
+
+.btn {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    text-decoration: none;
 }
 

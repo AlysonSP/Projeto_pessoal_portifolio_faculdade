@@ -60,3 +60,16 @@ setTimeout(()=>{
     sections[4].classList.remove('active');
 
 },1500);
+
+document.getElementById('btn-toggle').addEventListener('click', function(e) {
+    e.preventDefault();
+    const extraDesc = document.querySelector('.extra-desc');
+    
+    if (extraDesc.style.display === 'none' || extraDesc.style.display === '') {
+        extraDesc.style.display = 'inline'; 
+        this.textContent = 'Ver Menos';
+    } else {
+        extraDesc.style.display = 'none'; 
+        this.textContent = 'Ver Mais'; 
+    }
+});
