@@ -1,0 +1,49 @@
+# Trabalho de Conclusão de Semestre(TCS): Portfólio de Alyson SP
+
+## 1. Introdução
+
+Este trabalho apresenta o desenvolvimento do meu portfólio pessoal, um projeto dinâmico e responsivo focado em Desenvolvimento Web. O objetivo é não apenas exibir meus projetos e habilidades, mas também criar uma plataforma onde potenciais empregadores e colaboradores possam entender melhor meu trabalho.
+
+## 2. Descrição do Projeto
+
+O portfólio foi desenvolvido utilizando **HTML5**, **CSS3** e **JavaScript**, visando proporcionar uma experiência de usuário intuitiva e visualmente agradável. Uma funcionalidade inovadora é a integração com uma **API de meteorologia global**, que fornece dados em tempo real sobre clima, temperatura, umidade, velocidade do vento e previsões para a semana. Esta característica não só demonstra habilidades técnicas, mas também agrega valor ao site, oferecendo informações úteis aos visitantes.
+
+## 3. Tecnologias Utilizadas
+
+As principais tecnologias empregadas no desenvolvimento do portfólio incluem:
+
+- **HTML5:** Estrutura básica do site.
+- **CSS3:** Estilização e responsividade.
+- **JavaScript:** Dinamismo e interatividade.
+- **API de Meteorologia:** Para fornecer dados climáticos em tempo real.
+- **Ferramentas de Desenvolvimento:** Utilizei Git para versionamento e VSCode como meu editor de código.
+
+## 4. Funcionalidades
+
+O portfólio possui várias funcionalidades, entre as quais se destacam:
+
+- **Animações:** Para melhorar a interatividade e a estética do site.
+- **Responsividade:** O design é adaptável a diferentes dispositivos, garantindo acessibilidade em smartphones e desktops.
+- **Previsão do Tempo:** Exibe dados meteorológicos em tempo real, com informações sobre temperatura, umidade e velocidade do vento.
+
+## 5. Habilidades Desenvolvidas
+
+Durante o desenvolvimento deste projeto, pude aprimorar minhas habilidades nas seguintes áreas:
+
+- **HTML5:** Iniciante - Intermediário.
+- **CSS3:** Iniciante - Intermediário.
+- **JavaScript:** Iniciante - Intermediário.
+
+Essas habilidades foram essenciais para a implementação eficaz das funcionalidades do portfólio.
+
+## 6. Licença
+
+Este projeto está licenciado sob a licença **MIT**, o que permite sua utilização e modificação, incentivando a colaboração e o compartilhamento de conhecimento.
+
+## 7. Conclusão
+
+O portfólio desenvolvido não apenas reflete minhas habilidades técnicas, mas também minha capacidade de aplicar conhecimentos em um projeto prático. Espero que esta apresentação tenha sido clara e que o portfólio possa contribuir para futuras oportunidades profissionais. Estou aberto a feedbacks e perguntas.
+
+--- 
+
+Agradeço a atenção de todos!
