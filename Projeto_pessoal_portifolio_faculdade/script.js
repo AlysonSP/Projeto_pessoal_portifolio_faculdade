@@ -73,3 +73,23 @@ document.getElementById('btn-toggle').addEventListener('click', function(e) {
         this.textContent = 'Ver Mais'; 
     }
 });
+
+document.getElementById('phone').addEventListener('input', function(e) {
+  let phone = e.target.value;
+
+  
+  phone = phone.replace(/\D/g, '');
+
+  
+  if (phone.length <= 2) {
+    phone = phone.replace(/^(\d{0,2})/, '($1');
+  } else if (phone.length <= 6) {
+    phone = phone.replace(/^(\d{2})(\d{0,4})/, '($1) $2');
+  } else {
+    phone = phone.replace(/^(\d{2})(\d{4})(\d{0,4})/, '($1) $2-$3');
+  }
+
+  
+  e.target.value = phone;
+});
+
